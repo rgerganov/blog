@@ -1,0 +1,31 @@
+baseurl = "http://xakcop.com/"
+languageCode = "en-us"
+title = "random hacks"
+theme = "blackburn"
+author = "Radoslav Gerganov"
+# Shown in the side menu
+copyright = "&copy; 2016. All rights reserved."
+
+[menu]
+  # Shown in the side menu.
+  [[menu.main]]
+    name = "Home"
+    pre = "<i class='fa fa-home fa-fw'></i>"
+    weight = 0
+    identifier = "home"
+    url = "/"
+  [[menu.main]]
+    name = "Posts"
+    pre = "<i class='fa fa-list fa-fw'></i>"
+    weight = 1
+    identifier = "post"
+    url = "/post/"
+
+[social]
+  # Link your social networking accounts to the side menu
+  # by entering your username or ID.
+
+  # SNS microblogging
+  twitter = "rgerganov"
+  github = "rgerganov"
+  linkedin = "rgerganov"
