@@ -1,7 +1,7 @@
 +++
 topics = []
 tags = []
-draft = true
+draft = false
 date = "2017-01-29T13:27:39+02:00"
 title = "Cloning RFID cards"
 description = ""
