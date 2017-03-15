@@ -46,3 +46,6 @@ using a combination of default keys and "SofiaM":
 
 However, some of the new cards for the subway manage to resist my cracking attempts.
 I guess they are using something more secure which is running an emulation of Mifare Classic.
+
+UPDATE 03/15/2017: No, they are not. Keys have been disclosed [here](https://www.facebook.com/ilf.fb/posts/10158277574290527).
+
