@@ -7,7 +7,7 @@ title = "MitM'ing my STB"
 My ISP is offering IPTV with a set-top-box (STB) device which is connected to
 the provider network and the TV itself:
 
-![alt text](/images/stb-diagram.png "stb")
+{{% fluid_img class="pure-u-1-1" src="/images/stb-diagram.png" caption="stb-diagram" %}}
 
 The only "user interface" for the STB is the remote control.  I was curious to
 find out if the traffic between the STB and the provider is encrypted, so I
@@ -28,7 +28,7 @@ encryption at all. They have been using
 [RTSP](https://en.wikipedia.org/wiki/Real_Time_Streaming_Protocol) to switch
 between TV channels:
 
-![alt text](/images/wireshark-stb.png "wireshark capture")
+{{% fluid_img class="pure-u-1-1" src="/images/wireshark-stb.png" caption="wireshark capture" %}}
 
 Every channel has unique ID like `ch12032017033910402807`. The ISP is also
 offering some paid channels (like HBO) which I am not subscribed to.  However, I
@@ -52,7 +52,7 @@ Ethernet adapter to turn my Raspberry Pi into an ethernet bridge. The built-in
 network adapter is connected to the provider and the USB adapter is connected
 to the STB. This is how it looks like from the top:
 
-[<img src="/images/stb-rpi-small.jpg">](/images/stb-rpi.jpg "stb-rpi")
+[{{% fluid_img class="pure-u-1-1" src="/images/stb-rpi-small.jpg" %}}](/images/stb-rpi.jpg "stb-rpi")
 
 Below are the relevant config files on the Raspberry Pi which setup the
 networking and configure nfqsed to replace one TV channel with another:

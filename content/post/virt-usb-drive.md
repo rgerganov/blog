@@ -17,7 +17,7 @@ to share it.
 
 Here is a demo:
 
-<iframe width="640" height="360" src="https://www.youtube.com/embed/RSxUyQDnd2w" frameborder="0" allowfullscreen></iframe>
+{{< youtube RSxUyQDnd2w >}}
 
 You can find the supporting scripts [here](https://gist.github.com/rgerganov/df442733da54ad104bf03d81355a845e).
 

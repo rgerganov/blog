@@ -18,14 +18,14 @@ At work we use 125KHz passive RFID badges which are easy to clone.
 Each badge has unique ID, so the first step is to read this ID.
 I have been using this DIY [reader](http://playground.arduino.cc/Main/DIYRFIDReader) based on an Arduino:
 
-[<img src="/images/rfid-reader-small.jpg">](/images/rfid-reader.jpg "rfid-reader")
+[{{% fluid_img class="pure-u-1-1" src="/images/rfid-reader-small.jpg" %}}](/images/rfid-reader.jpg "rfid-reader")
 
 By the way, I had to make some slight [changes](https://gist.github.com/rgerganov/c8cec1f2c498c1e0786084bfdc1240b7) to the firware to make it work.
 
 Once you get the ID, you can "program" it on an ATtiny85 microcontroller as described [here](http://scanlime.org/2008/09/using-an-avr-as-an-rfid-tag/).
 This is how my assembled clone looks like:
 
-[<img src="/images/rfid-badge-small.jpg">](/images/rfid-badge.jpg "rfid-badge")
+[{{% fluid_img class="pure-u-1-1" src="/images/rfid-badge-small.jpg" %}}](/images/rfid-badge.jpg "rfid-badge")
 
 ### Residential entry
 
