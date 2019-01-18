@@ -7,7 +7,7 @@ title = "Controlling my Air Purifier"
 The air pollution in Sofia is really high during the winter, so I decided to buy an air
 purifier for my home. After some short research, I bought Philips AC2729:
 
-[<img src="/images/ac2729-small.jpg">](/images/ac2729.jpg "ac2729")
+[{{% fluid_img class="pure-u-1-1" src="/images/ac2729-small.jpg" alt="ac2729" %}}](/images/ac2729.jpg "ac2729")
 
 it can purify and humidify the air at the same time, show particulate matter (PM 2.5) /
 humidity, and features quiet sleep mode. It also has a Wi-Fi interface which allows
@@ -149,7 +149,7 @@ public static String generateRandomNum() {
 ```
 
 It seems this random number is only 31 bits. It also seems that the person who wrote this
-doesn't know what he is doing :) Solving the discrete logarithm problem when `a` is only
+didn't know what he is doing :) Solving the discrete logarithm problem when `a` is only
 31 bits turns out to be not hard at all. In fact, it can be solved for less than a second
 using the [Baby-step Giant-step](https://en.wikipedia.org/wiki/Baby-step_giant-step)
 algorithm. Check out my implementation at https://github.com/rgerganov/dlp.
