@@ -153,3 +153,5 @@ tries to acquire the same spinlock again.
 
 My attempt to fix this bug is this [patch](https://www.spinics.net/lists/linux-usb/msg177735.html) which I submitted to the maintainers of the USB subsytem.
 Let's see how that goes :)
+
+**UPDATE:** My patch has been [merged](https://github.com/torvalds/linux/commit/072684e8c58d17e853f8e8b9f6d9ce2e58d2b036) in Linux 5.1-rc3
