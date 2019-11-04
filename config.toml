@@ -6,18 +6,21 @@ author = "Radoslav Gerganov"
 # Shown in the side menu
 copyright = "&copy; 2016-2019. All rights reserved."
 
+[params]
+  highlightjs = "github"
+
 [menu]
   # Shown in the side menu.
   [[menu.main]]
     name = "Home"
     pre = "<i class='fa fa-home fa-fw'></i>"
-    weight = 0
+    weight = 1
     identifier = "home"
     url = "/"
   [[menu.main]]
     name = "Posts"
     pre = "<i class='fa fa-list fa-fw'></i>"
-    weight = 1
+    weight = 2
     identifier = "post"
     url = "/post/"
 
