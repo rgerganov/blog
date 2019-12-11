@@ -187,3 +187,5 @@ custom encryption but this time implemented in a native library.  Reversing this
 will take more time but something tells me it may allow doing some crazy stuff ;)
 
 Stay tuned!
+
+**UPDATE (Dec 2019):** I also reverse engineered how purifiers are [controlled over the internet](/post/cloud-air-purifier/).
