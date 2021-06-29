@@ -1,5 +1,5 @@
 +++
-title = "ISS SSTV"
+title = "Receiving SSTV from ISS"
 date = "2021-06-24T16:47:22+03:00"
 tags = []
 topics = []
