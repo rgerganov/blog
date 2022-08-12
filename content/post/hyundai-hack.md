@@ -20,7 +20,7 @@ So I decided to download the firmware and try to reverse it by myself.
 
 Firmware updates
 ---
-The firmware is available from [update.hyundai.com](https://https://update.hyundai.com/). You have to download and install Navigation Updater and then select your car model. The updater downloads all the files and prepares an SD card or USB drive. For my Hyundai it downloaded 23GB of data which includes both navigation updates and firmware. In the root folder of the USB drive there is `2018_20_Tucson_EU.ver` file which lists all of the files in the update:
+The firmware is available from [update.hyundai.com](https://update.hyundai.com/). You have to download and install Navigation Updater and then select your car model. The updater downloads all the files and prepares an SD card or USB drive. For my Hyundai it downloaded 23GB of data which includes both navigation updates and firmware. In the root folder of the USB drive there is `2018_20_Tucson_EU.ver` file which lists all of the files in the update:
 ```text
 +|22Q1|TLFL.EUR.SOP.V126.220421.STD_M|HM|2018_20_Tucson_EU|1477|1
 2018_20_Tucson_EU\DAUDIOPLUS_M\eur|vr.img|10|623073973|97644544|1
