@@ -155,7 +155,7 @@ This year's password is __2702__. I tried it on the car and it worked:
 
 [{{% fluid_img class="pure-u-1-1" src="/images/engmode-unlocked.jpg" %}}](/images/engmode-unlocked.jpg)
 
-Sofware update password
+Software update password
 ---
 Even though I can extract firmware updates with the keys derived with `bkcrack`, I was curious to find out the password for `update_package.zip`.
 A simple grep for `"update_package.zip"` leads to the `getPassword()` method of `com.hkmc.system.app.swupdate.ImageFileCopy`:
