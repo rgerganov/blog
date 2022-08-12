@@ -47,7 +47,7 @@ I tried to unzip using the password discovered by greenluigi1 (`ahqltmTkrhk2018@
 
 Cracking the zip password
 ---
-I decided to try the same cracking tool as greenluigi1 which is [bkcrack](https://github.com/kimci86/bkcrack). It implements a known plaintext attack discovered by Eli Biham and Paul C. Kocher. My encrypted zip contains two zip files. So what would be a good known plaintext candidate? The ZIP file header of course! This is how it looks like:
+I decided to try the same cracking tool as greenluigi1 which is [bkcrack](https://github.com/kimci86/bkcrack). It implements a known plaintext attack discovered by Eli Biham and Paul C. Kocher. The attack requires at least 12 bytes of plaintext. My encrypted zip contains two zip files. So what would be a good known plaintext candidate? The ZIP file header of course! This is how it looks like:
 
 [{{% fluid_img class="pure-u-1-1" src="/images/zip-header.png" %}}](/images/zip-header.png)
 
