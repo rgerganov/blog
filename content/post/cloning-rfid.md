@@ -34,7 +34,9 @@ which has been cracked long time ago. Actually, it turned out that I don't have 
 They were relying only on the fact that each tag has unique ID and the door opens when pre-recorded ID is shown. 
 Some fine people in China are selling tags that you can program with whatever ID you want, so creating is a clone a simple matter of running `nfc-mfsetuid`:
 
+{{< rawhtml >}}
 <script type="text/javascript" src="https://asciinema.org/a/14.js" id="asciicast-99020" async></script>
+{{< /rawhtml >}}
 
 
 ### Public transport
@@ -42,7 +44,9 @@ Some fine people in China are selling tags that you can program with whatever ID
 Turns out that Mifare Classic 1k is also being used for the public transport in Sofia. I managed to crack one of the old cards that I have -- it has been
 using a combination of default keys and "SofiaM": 
 
+{{< rawhtml >}}
 <script type="text/javascript" src="https://asciinema.org/a/14.js" id="asciicast-a1fjcus3zcgkxpvh3i72txy91" async></script>
+{{< /rawhtml >}}
 
 However, some of the new cards for the subway manage to resist my cracking attempts.
 I guess they are using something more secure which is running an emulation of Mifare Classic.
