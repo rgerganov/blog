@@ -4,7 +4,7 @@ title = "random hacks"
 theme = "blackburn"
 author = "Radoslav Gerganov"
 # Shown in the side menu
-copyright = "&copy; 2016-2022. All rights reserved."
+copyright = "&copy; 2016-2023. All rights reserved."
 
 [params]
   subtitle = "reverse engineering, hardware hacking, etc."
